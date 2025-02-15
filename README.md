@@ -21,6 +21,7 @@ your website gets created.
 
 # specs
 only works in oses that has bash.
+run this command to check your shell
 ```
 echo $0
 ```
