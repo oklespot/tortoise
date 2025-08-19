@@ -6,7 +6,7 @@ To create a website, press Y. Otherwise, press any other key.
 (It's best to use this in a folder.)
 
 " -n 1 -r
-f [[ $REPLY =~ ^[Yy]$ ]]; then
+if [[ $REPLY =~ ^[Yy]$ ]]; then
       # Create files
 touch index.html styles.css script.js
 
